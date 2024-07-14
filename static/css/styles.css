@@ -1,0 +1,53 @@
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar {
+    margin-bottom: 0;
+    height: 50px;
+    
+}
+
+.chat-container {
+    height: 73vh;
+    overflow-y: auto;
+    border: 1px solid #444;
+    padding: 10px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-bubble {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    max-width: 75%;
+}
+
+.user-bubble {
+    background-color: #ffffffde;
+    color: rgb(0, 0, 0);
+    align-self: flex-end;
+    text-align: right;
+}
+
+.ai-bubble {
+    background-color: #343a40;
+    color: white;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.input-group {
+    position: sticky;
+    bottom: 0;
+}
+
+#send-button {
+    background-color: #ffffff73;
+    color: rgb(255 255 255);
+    border-radius: 6px;
+    margin-left: 10px;
+}
