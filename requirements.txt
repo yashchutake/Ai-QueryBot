@@ -1,0 +1,7 @@
+langchain==0.2.7
+langchain-core==0.2.12
+langchain-community==0.2.7
+langchain-google-genai==1.0.7
+python-dotenv==1.0.1
+Flask==2.3.2
+gunicorn==20.1.0
