@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Question and Answer</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
-    <!-- Favicon -->
-    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA3lBMVEUAUvQBcuMAX+4BaOn///8A
+data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA3lBMVEUAUvQBcuMAX+4BaOn///8A
 QfMAauLf6f0AZukATPQAU+2syvQXcusAb+Pv9P4AXugAXO4BbOYAWO0AZuH4/P8AYejG1/o+dfCi
 vPcAT/QAX+i3yvgAUO0AR/REhOyEsO6Pq/XG1PxAefC5z/cAP/OkuPqWr/VqlPPo8f22xvvy+P5A
 ieeCnvgAduSux/ZXiPJfhfdGfvGAo/QaYPVAgOykwPUqZPVimupIdfZqjffO3/h5qO3h6/3V3vsA
@@ -59,34 +50,4 @@ D8tPWH4vLT9hYl46zythYjbcdOAwhSU8XeiEL7iEqPUUsvTS06pOWM0rYQI2VG9NwsfAqdRoQgTM
 0obNlUnYwzTioQkTsOHpq0noO7A5N4TkNhwbZ9EYhA0sI7ZRU0dxCYmDoJu33R1hdSPgzImoNmR3
 BbFiI5LxqbU/ZhS9dbp195tQrwtxnRWl0BfnnEfKWcW+4iBipiOoqtoc1x52VdDs87u7X98e36+O
 hP3Ska50vev32mkbHwnHaBJl2TiRlLPTTOw8Wg9MSBUztaI2scTfPv0+c0JbnBPKkbVASXMi+oZk
-FZ+waPo/GY1eKBMBTBEAAAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
-</head>
-
-</head>
-<body class="dark-mode">
-    <nav class="navbar navbar-dark bg-dark sticky-top">
-        <span class="navbar-brand mb-0 h1">Ai-QueryBot</span>
-    </nav>
-
-    <div class="container mt-4">
-        <div id="chat-container" class="chat-container">
-            <!-- Chat history will be appended here -->
-        </div>
-    </div>
-
-    <div class="fixed-bottom p-3 bg-dark">
-        <div class="container">
-            <div class="input-group">
-                <textarea id="question-input" class="form-control" rows="1" placeholder="Ask your question..."></textarea>
-                
-                <div class="input-group-append">
-                    <button id="send-button" class="btn btn-secondary">Send</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-</body>
-</html>
+FZ+waPo/GY1eKBMBTBEAAAAASUVORK5CYII=
